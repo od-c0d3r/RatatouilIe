@@ -27,7 +27,7 @@ All code below are for a terminal.
 
 1. Clone repository: 
 ```sh
-  $ git clone https://github.com/od-c0d3r/Ratatouille.git
+  $ git clone https://github.com/od-c0d3r/RatatouilIe.git
 ```
 2. Change directory inside project
 ```sh
