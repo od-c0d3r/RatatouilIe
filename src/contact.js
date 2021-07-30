@@ -3,7 +3,7 @@ import * as common from './common';
 const content = document.querySelector('#content');
 const section = common.createSection('contactPage');
 
-export default function contactCaller() {
+const contactCaller = () => {
   const phoneHeader = common.createHeader('#Phone', 'headHighlight w-100 px-2');
   const phoneP = common.createParag('+33 1 40 19 04 10');
 
@@ -16,4 +16,6 @@ export default function contactCaller() {
   section.classList.add('d-none');
   section.append(phoneHeader, phoneP, resHeader, resP);
   content.appendChild(section);
-}
+};
+
+export default contactCaller;

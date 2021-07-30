@@ -36,7 +36,7 @@ const createClickEvent = (linkClass, pageClass) => {
   });
 };
 
-export default function headerCaller() {
+const headerCaller = () => {
   const header = document.createElement('header');
   const ul = document.createElement('ul');
   header.classList.add('header', 'd-flex', 'justify-content-center');
@@ -53,4 +53,6 @@ export default function headerCaller() {
   createClickEvent('homeLink', 'homePage');
   createClickEvent('menuLink', 'menuPage');
   createClickEvent('contactLink', 'contactPage');
-}
+};
+
+export default headerCaller;

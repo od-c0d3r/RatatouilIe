@@ -23,7 +23,7 @@ const menuItem = (title, price, imgLink) => {
   return article;
 };
 
-export default function menuCaller() {
+const menuCaller = () => {
   const head1 = common.createHeader('Entrée', 'headHighlight w-100 px-2');
   const item1 = menuItem('Fritura romana mista', '12 €', '/imgs/fritto-misto-alla-romana.jpg');
   const item2 = menuItem('Tagliere di Norcia', '11 €', '/imgs/tagliere-castelluccio.jpg');
@@ -40,4 +40,6 @@ export default function menuCaller() {
   section.classList.add('d-none');
   section.append(head1, item1, item2, head2, item3, item4, head3, item5, item6, item7);
   content.appendChild(section);
-}
+};
+
+export default menuCaller;

@@ -3,7 +3,7 @@ import * as common from './common';
 const content = document.querySelector('#content');
 content.classList.add('d-flex', 'flex-column-reverse', 'justify-content-center', 'align-items-center', 'pt-4');
 
-export default function homeCaller() {
+const homeCaller = () => {
   const section = common.createSection('homePage');
   section.append(
     common.createHeader('#About', 'headHighlight w-100 px-2'),
@@ -29,4 +29,6 @@ export default function homeCaller() {
     common.createPre('Tuesday    12–3PM, 7–11PM<br>Wednesday    12–3PM, 7–11PM<br>Thursday    12–3PM, 7–11PM<br>Friday    12–3PM, 7–11PM<br>Saturday    12–3PM, 7–11PM<br>Sunday    Closed<br>Monday    Closed'),
   );
   content.appendChild(section);
-}
+};
+
+export default homeCaller;
