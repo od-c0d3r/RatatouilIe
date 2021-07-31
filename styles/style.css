@@ -1,0 +1,42 @@
+.body {
+  background-color: #333;
+  color: #f2a89f;
+  font-family: 'Bitter', serif;
+}
+
+.LinksList {
+  list-style: none;
+}
+
+.highlight {
+  background-color: #5d5e5d;
+}
+
+.headHighlight {
+  background-color: #7a878d;
+}
+
+.page {
+  width: 550px;
+  border-end-start-radius: 3px;
+  border-end-end-radius: 4px;
+}
+
+.page a {
+  color: #f2a89f;
+  text-decoration: none;
+}
+
+.page a:hover {
+  color: #7a878d;
+}
+
+.menuPage img {
+  width: 250px;
+}
+
+.cropped {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
